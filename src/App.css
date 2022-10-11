@@ -19,3 +19,15 @@ main {
 .card-component {
   border: 1px solid black;
 }
+
+.btn-container {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 16px;
+}

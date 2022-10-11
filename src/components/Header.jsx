@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header className="App-header">
-      <h1>Header</h1>
-      <Link to="/">
-        <button>Home</button>
-      </Link>
-      <Link to="/addCard">
-        <button>Add card</button>
-      </Link>
+      <h1>E-WALLET</h1>
+      <div className="btn-container">
+        <Link to="/">
+          <button className="btn">Home</button>
+        </Link>
+        <Link to="/addCard">
+          <button className="btn">Add card</button>
+        </Link>
+      </div>
     </header>
   );
 }
